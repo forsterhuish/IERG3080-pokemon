@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="image\1.png" />
+    <None Remove="image\2.png" />
+    <None Remove="image\3.png" />
+    <None Remove="image\4.png" />
+    <None Remove="image\5.png" />
+    <None Remove="image\base.png" />
+    <None Remove="image\fight.png" />
+    <None Remove="image\pokeball.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Presenter\" />
+    <Folder Include="View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="image\1.png" />
+    <Resource Include="image\2.png" />
+    <Resource Include="image\3.png" />
+    <Resource Include="image\4.png" />
+    <Resource Include="image\5.png" />
+    <Resource Include="image\base.png" />
+    <Resource Include="image\fight.png" />
+    <Resource Include="image\pokeball.png" />
+  </ItemGroup>
+
+</Project>
